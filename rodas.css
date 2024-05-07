@@ -1,0 +1,175 @@
+
+.main {
+width: 55%;
+margin: 0 auto;
+background-color: azure;
+}
+
+.head{
+display: flex;
+margin: auto;
+
+}
+
+.head p{
+    font-family: arial;
+    text-align: justify;
+}
+
+.details{
+    margin: 10px 30px 10px 30px ;
+    letter-spacing: 1px;
+    font: arial;
+}
+.details h1{
+    font-size: 40px;
+    font-family: arial black;
+}
+
+.head img{
+height: 250px;
+width: 250px;
+margin: 10px;
+}
+.head h3{
+    font-size: 25px;
+    font-family: arial black;
+}
+
+.details {
+margin-left: 30px;
+width: 750px;
+}
+
+body{
+    background-color: black;
+}
+.contacts p{
+ margin-left: 20px;
+ font-size: large;
+ letter-spacing: 2px;
+ font-family: arial;
+}
+.contacts h3{
+font-size: 25px;
+margin-left: 20px;
+font-family: arial black;
+
+}
+a { 
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+}
+.info{
+    display: flex;
+    font-family: arial;
+    
+}
+
+.skills h3{
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: arial black;
+}
+
+.skills p{
+margin-left: 20px;
+font-size: 20px;
+letter-spacing: 2px;
+font-family: arial;
+}
+
+.educ{
+    margin-left: 120px;
+}
+.educ h3{
+    font-size: 25px;
+    font-family: arial black;
+}
+.educ p{
+    letter-spacing: 2px;
+    font-family: arial;
+}
+
+.work{
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.work h2,h4 {
+    font-family: arial black;
+    
+}
+.work p{
+    font-family: arial;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main {
+      width: 95%;
+      height: auto;
+    }
+    .head img {
+      margin: 20px auto auto auto;
+    }
+    .head {
+      flex: none;
+      flex-direction: column;
+    }
+    .details{
+    width: 97%;
+    margin: auto;
+    }
+
+  }
+
+  
+  
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .main {
+      width: 95%;
+      height: auto;
+    }
+    .head img {
+      margin: 20px auto auto auto;
+    }
+    .head {
+      flex: none;
+      flex-direction: column;
+      
+  }
+    .details{
+        width: 97%;
+        margin: auto;
+        }
+    }
+
+@media screen and (max-width: 600px) {
+    .main {
+      width: 95%;
+      height: auto;
+    }
+    .head img {
+      margin: 20px auto auto auto;
+    }
+    .head {
+      width: 100%;
+      flex: none;
+      flex-direction: column;
+    }
+    .details{
+        width: 97%;
+        margin: auto;
+}
+    .info{
+        flex: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .educ{
+        margin-left: 20px;
+    }
+}
